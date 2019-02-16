@@ -17,16 +17,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cat" translatesAutoresizingMaskIntoConstraints="NO" id="lq1-DR-NhZ">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="planet" translatesAutoresizingMaskIntoConstraints="NO" id="UlO-y7-Wzt">
+                                <rect key="frame" x="67" y="269" width="240" height="128"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="lq1-DR-NhZ" firstAttribute="top" secondItem="6k3-Oq-laf" secondAttribute="top" id="2ax-RW-ShD"/>
-                            <constraint firstItem="lq1-DR-NhZ" firstAttribute="leading" secondItem="6k3-Oq-laf" secondAttribute="leading" id="9hF-YB-dHR"/>
-                            <constraint firstAttribute="trailing" secondItem="lq1-DR-NhZ" secondAttribute="trailing" id="aRz-mw-xfx"/>
-                            <constraint firstAttribute="bottom" secondItem="lq1-DR-NhZ" secondAttribute="bottom" id="zc9-ZN-5qf"/>
+                            <constraint firstItem="UlO-y7-Wzt" firstAttribute="centerY" secondItem="6k3-Oq-laf" secondAttribute="centerY" id="6Ar-3d-rlQ"/>
+                            <constraint firstItem="UlO-y7-Wzt" firstAttribute="centerX" secondItem="6k3-Oq-laf" secondAttribute="centerX" id="Slj-QD-prh"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="AG5-4A-BTm"/>
                     </view>
@@ -37,6 +35,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="cat" width="1900" height="1266"/>
+        <image name="planet" width="3000" height="3075"/>
     </resources>
 </document>
